@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ScoresActivity">
+
+
+    <TextView
+        android:id="@+id/editTextLabelTopics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:paddingTop="10px"
+        android:paddingBottom="10px"
+        android:text="@string/labelTopics" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            android:paddingBottom="10px"/>
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:background="#E3E3E3">
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="@string/fname" />
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="@string/lname" />
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="@string/grade" />
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="@string/category" />
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="@string/date" />
+
+        </TableRow>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    </TableLayout>
+
+</LinearLayout>

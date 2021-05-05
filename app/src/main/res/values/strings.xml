@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">ERAS FlashCards</string>
+
+    <string name="button_start">Start Quiz</string>
+
+
+    <!-- Menu Items-->
+    <string name="menu_start">Start</string>
+    <string name="menu_preference">Preferences</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_addflashcards">Add flashcards</string>
+    <string name="menu_scores">Scores</string>
+    <string name="title_activity_preferences">PreferencesActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="preference_header">Preference</string>
+
+    <!--Preferences Items -->
+    <string name="theme_title">Set Dark Theme</string>
+    <string name="dragAdrop_title">Set Drag and Drop</string>
+
+
+
+    <!--Add Flash Cards Layout -->
+    <string name="category_text">Topics</string>
+    <string name="question_text">Question</string>
+    <string name="correct_choice">Correct Answer</string>
+    <string name="second_choice">Second Choice</string>
+    <string name="third_choice">Third Choice</string>
+    <string name="fourth_choice">Fourth Choice</string>
+    <string name="button_text">Submit</string>
+
+    <!--Scores Layout -->
+
+    <string name="labelTopics">Topics</string>
+    <string name="fname">First</string>
+    <string name="lname">Last</string>
+    <string name="grade">Score</string>
+    <string name="category">Topic</string>
+    <string name="date">Date</string>
+    <string name="txtviewQuiz">quiz</string>
+
+    <!--Snackbar Texts -->
+    <string name="snackbar_main">Please fill all textboxes</string>
+    <string name="snackbar_start">Please select an answer</string>
+    <string name="Ok">Okay</string>
+
+    <!--Notification Texts -->
+    <string name="localNotif_title">The Quiz is ongoing</string>
+    <string name="localNotif_text">Finish the quiz to record your score</string>
+    <string name="broadcast_Title">ERAS Notification</string>
+    <string name="broadcast_airText">Airplane mode status changed</string>
+    <string name="broadcast_batteryText">Charge your phone to avoid losing any quizzes or flashcards</string>
+
+    <!--Floating Action Button Texts -->
+    <string name="fab_text">Fill up all the fields and click start quiz</string>
+
+</resources>
